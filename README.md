@@ -4,63 +4,63 @@
 
 ### MercadoBitcoin
 
-Moeda: BRL
+Currency: BRL
 
 CryptoCurrency: BTC e LTC
 
-Depósito BRL: R$ 2,90 + 1,99%
-Saque BRL: R$ 2,90 + 1,99%
+Deposit BRL: R$ 2.90 + 1.99%
+Withdraw BRL: R$ 2.90 + 1.99%
 
-Receber BTC/LTC: Free
-Transferir BTC/LTC: 0,00085800
+Receive BTC/LTC: Free
+Transfer BTC/LTC: 0.00085800
 
 Trade:
-0,30% Executada
-0,70% Executora
+0.30% Passive
+0.70% Active
 
 ### Foxbit
 
-Moeda: BRL
+Currency: BRL
 
 CryptoCurrency: BTC
 
-Depósito BRL: R$ 0,00
-Saque BRL: R$ 1,39%
+Deposit BRL: R$ 0,00
+Withdraw BRL: R$ 1.39%
 
-Receber BTC/LTC: Free
-Transferir BTC/LTC: 0,0008
+Receive BTC/LTC: Free
+Transfer BTC/LTC: 0.0008
 
 Trade:
-0,25% Executada
-0,50% Executora
+0.25% Passive
+0.50% Active
 
 ### Bitstamp
 
-Moeda: EUR
+Currency: EUR
 
 CryptoCurrency: BTC
 
-Depósito BRL: 0,00 EUR
-Saque BRL: 0,90 EUR
+Deposit BRL: 0.00 EUR
+Withdraw BRL: 0.90 EUR
 
-Receber BTC/LTC: Free
-Transferir BTC/LTC: 0,1%
+Receive BTC/LTC: Free
+Transfer BTC/LTC: 0.1%
 
 Trade:
-0,25% Executada
-0,25% Executora
+0.25% Passive
+0.25% Active
 
 ### Coinbase
 
-Moeda: EUR
+Currency: EUR
 
 CryptoCurrency: BTC, ETH e LTC
 
-Depósito BRL: 0,00 EUR
-Saque BRL: 0,15 EUR
+Deposit BRL: 0.00 EUR
+Withdraw BRL: 0.15 EUR
 
-Receber BTC/LTC: Free
-Transferir BTC/LTC: 0.0005
+Receive BTC/LTC: Free
+Transfer BTC/LTC: 0.0005
 
 Trade:
 1.49% Executada
