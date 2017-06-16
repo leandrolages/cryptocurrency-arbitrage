@@ -5,38 +5,30 @@ namespace LeandroLages\CryptoCurrency\Arbitrage\ValueObject;
 abstract class Order
 {
     /**
-     * @var float
+     * @var CryptoBalance
      */
-    protected $amount;
+    protected $cryptoBalance;
 
     /**
-     * @var float
+     * @var PriceQuote
      */
-    protected $value;
+    protected $priceQuote;
 
     /**
-     * @param float $amount
-     * @param float $value
+     * @param CryptoBalance $cryptoBalance
+     * @param PriceQuote $priceQuote
      */
-    public function __construct(float $amount, float $value)
+    public function __construct(CryptoBalance $cryptoBalance, PriceQuote $priceQuote)
     {
-        $this->amount = $amount;
-        $this->value = $value;
+        $this->cryptoBalance = $cryptoBalance->clone();
+        $this->priceQuote = $priceQuote;
     }
 
     /**
      * @return float
      */
-    public function getAmount() : float
+    public function getBalanceValue() : float
     {
-        return $this->amount;
-    }
-
-    /**
-     * @return float
-     */
-    public function getValue() : float
-    {
-        return $this->value;
+        return $this->cryptoBalance->getValue();
     }
 }

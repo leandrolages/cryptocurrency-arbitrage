@@ -2,7 +2,7 @@
 
 namespace LeandroLages\CryptoCurrency\Arbitrage\ValueObject;
 
-class FiatCurrencyBalance extends CurrencyBalance
+abstract class CryptoBalance extends Balance
 {
     
 }
